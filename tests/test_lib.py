@@ -5,4 +5,6 @@ import numpy
 def test_change_tolist():
     assert type(change_toarray([48.8, 2.3, 48.2, 2.3])) == numpy.ndarray
     assert type(change_toarray('abc')) == str
+
+def test_city_weather():
     assert city_weather() == None
